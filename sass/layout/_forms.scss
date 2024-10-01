@@ -1,0 +1,19 @@
+.info {
+    display: flex;
+    margin-top: 70px;
+    gap: 210px;
+    margin-left: 60px;
+}
+
+.info article {
+    width: 200px;
+}
+
+.info img {
+    width: 50px;
+}
+
+.info p {
+    color: $font-color-p;
+    padding-top: 8px;
+}

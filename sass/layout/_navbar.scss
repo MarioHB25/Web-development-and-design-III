@@ -1,0 +1,18 @@
+.menu ul {
+    display: flex;
+    gap: 4.5em;
+    list-style: none;
+}
+
+.menu ul a {
+    color: $font-color;
+    text-decoration: none;
+}
+
+.menu ul a:hover {
+    color: $btn-color;
+}
+
+.menu ul li a.active {
+    color: $btn-color;
+}
